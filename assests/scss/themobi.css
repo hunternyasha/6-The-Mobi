@@ -1,0 +1,67 @@
+/*!
+=========================================================
+* The Mobi Landing Page
+=========================================================
+
+* Copyright: 2023
+* Code by Nyasha Tanganyika
+
+-----------------------------------------------------------
+Table of Contents
+===========================================================
+    1. Reset & Font Awsome
+    2. Nav & Hero
+    3. About Us
+
+--------------------------------------------------------
+
+=========================================================
+
+*/
+/* ------------------------------
+    1. Reset & Font Awsome
+------------------------------ */
+@import url("assets/scss/reset/reboot");
+@import url("assets/fontawsome/fontawesome");
+* {
+  outline: 0;
+}
+
+/* ------------------------------
+    2. Nav & Hero
+------------------------------ */
+nav .navbar-brand {
+  margin: 0 0 0 10%;
+}
+nav .navbar-brand img {
+  width: 170px;
+  height: 170px;
+}
+nav #navbarNav .navbar-nav {
+  margin: 0 0 17px 0;
+}
+nav #navbarNav .navbar-nav .nav-item a {
+  color: black;
+  font-size: 20px;
+}
+nav #navbarNav .navbar-nav .nav-item .active {
+  color: rgb(225, 142, 0);
+}
+nav #navbarNav .navbar-nav .nav-item a:hover {
+  color: rgb(225, 142, 0);
+}
+
+.hero {
+  padding: 0 0 100px 0;
+}
+.hero .innerHero h1 {
+  font-size: 90px;
+  width: 58%;
+}
+.hero .innerHero h1 span {
+  color: rgb(225, 142, 0);
+}
+
+.aboutUs {
+  padding: 0 0 100px 0;
+}/*# sourceMappingURL=themobi.css.map */
