@@ -9,7 +9,7 @@
 -----------------------------------------------------------
 Table of Contents
 ===========================================================
-    1. Reset & Font Awsome
+    1. Reset , Font Awsome & Typography 
     2. Nav & Hero
     3. About Us
 
@@ -25,8 +25,36 @@ Table of Contents
 *{
     outline: 0 ;
 }
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden
+}
+
+
 @import url("assets/scss/reset/reboot");
 @import url("assets/fontawsome/fontawesome");
+
+@font-face {
+    font-family: "Oswald";
+    src: url("/assests/fonts/Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: "OswaldBold";
+    src: url("/assests/fonts/Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: "Raleway";
+    src: url("/assests/fonts/Raleway-Regular.ttf");
+}
+@font-face {
+    font-family: "Renner";
+    src: url("/assests/fonts/Renner-Book.ttf");
+}
+@font-face {
+    font-family: 'RennerBold';
+    src: url("/assests/fonts/Oswald-Bold.ttf");
+}
 
 /* ------------------------------
     2. Nav & Hero
@@ -34,7 +62,7 @@ Table of Contents
 
  nav{
     .navbar-brand{
-        margin: 0 0 0 10%;
+
         img{
             width: 170px;
             height: 170px;
@@ -45,14 +73,15 @@ Table of Contents
             margin: 0 0 17px 0;
             .nav-item{
                 a{
+                    font-family: "Raleway";
                     color: black;
                     font-size: 20px;
                 }
                 .active{
-                    color: rgb(225, 142, 0);
+                    color: rgba(255, 127, 0, 1);
                 }
                 a:hover{
-                    color: rgb(225, 142, 0);
+                    color: rgba(255, 127, 0, 1);
                 }
 
             }
@@ -60,18 +89,149 @@ Table of Contents
     }
  }
  .hero{
-    padding: 0 0 100px 0;
+    padding: 0 0 400px 0;
     .innerHero{
         h1{
-            font-size: 90px;
-            width: 58%;
+            font-family: 'Renner-Bold';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 145px;
+            margin: 20% 0 0 0;
             span{
-                color: rgb(225, 142, 0);
+                color: rgba(255, 127, 0, 1);
+            }
+        }
+        .col-md-6{
+            img{
+                margin: 5% 0 0 -20%;
+                max-width: 131%;
+                height: auto;
             }
         }
     }
  }
 
 .aboutUs{
-    padding: 0 0 100px 0;
+    padding: 50px 0 100px 0;
+    background-color: black;
+    .innerAbout{
+        margin: -14% 0 0 0;
+        .Jumbotron{
+            background-color: rgba(255, 127, 0, 1);
+            font-family: "Renner";
+            padding: 10% 0;
+            h2{
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 54px;
+            }
+        }
+    }
+    .col-md-6{
+        .thirdMiniJumbotron{
+            background-color: rgba(255, 127, 0, 1);
+        }
+    }
+
+}
+
+.aims{
+    padding: 10% 0;
+    .container{
+        .row{
+            .col-md-3{
+                img{
+                    height: 95%;
+                }
+            }
+            .col-md-12{
+                h2{
+                    font-family: "OswaldBold";
+                    font-size: 36px;
+                    line-height: 53px;
+                    letter-spacing: 0.05em;
+                    width: 100%;
+                    color: rgba(255, 127, 0, 1);
+                }
+                p{
+                    font-family: 'Renner';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.secAims{
+    background-color: black;
+    padding: 10% 0;
+    .container{
+        .row{
+            .jumbotron{
+                background-color: rgba(255, 127, 0, 1);
+                font-family: "Renner";
+                padding: 10% 0;
+                .container{
+                    h3{
+                        
+                        span{
+                            color: white;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+.donate{
+    padding: 10% 0;
+    .container{
+        .innerDonate{
+            padding: 0 15%;
+        }
+        .col-md-6{
+            h2{
+                color: rgba(255, 127, 0, 1);
+                font-family: 'Renner';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 96px;
+                line-height: 142px;
+                letter-spacing: -0.02em;
+                width: 100%;
+            }
+            h3{
+                font-family: 'Renner';
+                font-style: normal;
+                font-weight: bolder;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            p{
+                font-family: 'Renner';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+        .brandLogo , .secBrandLogo{
+            .col-md-2{
+                .logos{
+                    margin-top: 10%;
+                }
+            }
+        }
+    }
+}
+footer{
+    background-color: black;
+    padding: 5% 0;
 }
