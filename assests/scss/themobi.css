@@ -83,7 +83,16 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 .hero {
   padding: 0 0 400px 0;
 }
-.hero .innerHero h1 {
+.hero .visible {
+  opacity: 1;
+  transform: none;
+}
+.hero #innerHeroS {
+  opacity: 0;
+  transform: rotate(40deg) scale(0.5);
+  transition: all 0.8s ease-in-out;
+}
+.hero #innerHeroS h1 {
   font-family: "RennerBold";
   font-style: normal;
   font-weight: 700;
@@ -91,13 +100,17 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   line-height: 145px;
   margin: 20% 0 0 0;
 }
-.hero .innerHero h1 span {
+.hero #innerHeroS h1 span {
   color: rgb(255, 127, 0);
 }
-.hero .innerHero .col-md-6 img {
+.hero #innerHeroS .col-md-6 img {
   margin: 5% 0 0 -20%;
   max-width: 131%;
   height: auto;
+}
+.hero .innerhero {
+  opacity: 1;
+  transform: none;
 }
 
 .aboutUs {
