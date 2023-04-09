@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assests/vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assests/css/font awsome/all.min.css">
     <link rel="stylesheet" href="assests/scss/themobi.css">
     <title>The Mobi</title>
@@ -25,21 +26,21 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
-                    <ul class="navbar-nav mx-auto ">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link active " aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link" href="#about">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Aims</a>
+                            <a class="nav-link" href="#aims">Aims</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Donate</a>
+                            <a class="nav-link" href="#donate">Donate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
@@ -74,7 +75,7 @@
 
       </section>
 
-      <section class="aboutUs">
+      <section class="aboutUs" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6 innerAbout">
@@ -104,7 +105,7 @@
                             </ul>
                         </p>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6">
+                    <div class="col-md-6 col-lg-6 col-sm-6 col-xl-6 firstImg">
                             <img src="assests/imgs/Frame 26.png" alt="" class="img-fluid">
                     </div>
 
@@ -114,7 +115,7 @@
                         <div class="miniJumbotron bg-light p-4">
                             <div class="container">
                                 <h3>1,200 +</h3>
-                                <p class="pt-2">Meals per month</p>
+                                <p class="">Meals per month</p>
                             </div>
                         </div>
                     </div>
@@ -122,7 +123,7 @@
                         <div class="miniJumbotron bg-light  p-4">
                             <div class="container">
                                 <h3>500 +</h3>
-                                <p class="pt-2">Families reached</p>
+                                <p class="">Families reached</p>
                             </div>
                         </div>
                     </div>
@@ -137,12 +138,12 @@
                                         <a href="" class="">Donate</a>
                                     </div>
                                     <div class="col-md-6">
-                                        <p class="pt-2">Targets per month</p>
+                                        <p class="">Targets per month</p>
                                     </div>
 
-                                    <div class="col-md-6 ">
+                                    <div class="col-md-6 progbar">
                                         <div class="progress">
-                                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                            <div class="progress-bar bg-white" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +154,7 @@
             </div>
       </section>
 
-      <section class="aims">
+      <section class="aims" id="aims">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-lg-3 col-sm-6 ">
@@ -167,7 +168,7 @@
                 </div>
                 
                 <div class="col-md-3 col-lg-3 col-sm-6 ">
-                    <img src="assests/imgs/1.png" alt="" class="img-fluid">
+                    <img src="assests/imgs/Frame-34.png" alt="" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-lg-6 col-sm-6">
                     <img src="assests/imgs/7.jpeg" alt="" class="img-fluid">
@@ -208,6 +209,7 @@
                     <div class="col-md-6">
                         <div class="jumbotron">
                             <div class="container">
+                                <img src="assests/imgs/Vector.png" alt="" class="img-fluid pb-5 pt-5"  >
                                 <h3>
                                     History will<span> judge</span> us
                                     by <span>the difference </span>we
@@ -221,27 +223,35 @@
 
                     <div class="col-md-6 innerSecAims">
                         <h2>AIMS FOR MOBI</h2>
-                        <p>
-                            With the MOBI we are able to reach communities that have no access to alternative
-                            assistance through the various soup kitchens, Churches, and Charitable organisations
-                            operating in and around Harare, with a focus on children under the age of 15.
-                            <div class="pt-3"></div>
-                            The Mobi currently visits two major squatter camps in Hatcliffe each week, initially visiting
-                            the same communities in order to build up the important relationships required for
-                            effecting change. As our team builds up registers of our beneficiaries, we will begin to
-                            introduce partners to assist with specific issues within the communities, such as
-                            malnutrition, literacy and education, healthcare and general welfare, as well as HIV/AIDS 
-                            treatment, support and education.
-                            <div class="pt-3"></div>
-                            As the MOBI continues to grow, we will expand our reach into other communities such as
-                            Epworth and Hopely.
-                        </p>
+                        <div class="pt-3">
+                            <p>
+                                With the MOBI we are able to reach communities that have no access to alternative
+                                assistance through the various soup kitchens, Churches, and Charitable organisations
+                                operating in and around Harare, with a focus on children under the age of 15.
+                            </p>
+                        </div>
+                        <div class="pt-3">
+                            <p>
+                                the same communities in order to build up the important relationships required for
+                                effecting change. As our team builds up registers of our beneficiaries, we will begin to
+                                introduce partners to assist with specific issues within the communities, such as
+                                malnutrition, literacy and education, healthcare and general welfare, as well as HIV/AIDS 
+                                treatment, support and education.
+                            </p>
+                        </div>
+                        <div class="pt-3">
+                            <p>
+                                As the MOBI continues to grow, we will expand our reach into other communities such as
+                                Epworth and Hopely.
+                            </p>
+                        </div>
+
                     </div>
                 </div>
             </div>
       </section>
 
-      <section class="donate">
+      <section class="donate" id="donate">
         <div class="container">
             <div class="row innerDonate">
                 <div class="col-md-6">
@@ -301,9 +311,9 @@
         </div>
       </section>
 
-      <footer>
+      <footer id="contact">
         <div class="container">
-            <div class="d-flex">
+            <div class="d-flex text-white">
                 <div class="contact">
                     <h6>CONTACT US</h6>
                     <p class="pt-3">MOBI hotline: +263 780 853 390</p>
@@ -334,7 +344,7 @@
                 </div>
             </div>
             <hr>
-            <div class="copyright d-flex justify-content-between">
+            <div class="copyright d-flex justify-content-between text-white">
                 <p>
                     Follow Us On
                     <a href=""><span><i class="fab fa-facebook-f"></i></span></a>
@@ -363,7 +373,10 @@
 
 
 
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
     <script src="assests/js/script.js"></script>
     <script src="./assests/vendors/bootstrap/bootstrap.min.js"></script>
 </body>

@@ -23,7 +23,8 @@ Table of Contents
     1. Reset & Font Awsome
 ------------------------------ */
 *{
-    outline: 0 ;
+    outline: 0px solid blue;
+    scroll-behavior: smooth;
 }
 html,body{
     width: 100%;
@@ -69,6 +70,7 @@ html,body{
         }
     }
     #navbarNav{
+        margin: 0 0 0 35%;
         .navbar-nav{
             margin: 0 0 17px 0;
             .nav-item{
@@ -76,6 +78,7 @@ html,body{
                     font-family: "Raleway";
                     color: black;
                     font-size: 20px;
+                    margin: 0 0 0 20px;
                 }
                 .active{
                     color: rgba(255, 127, 0, 1);
@@ -115,23 +118,54 @@ html,body{
 .aboutUs{
     padding: 50px 0 100px 0;
     background-color: black;
+    .container{
+        .row{
+            p{
+                margin: 11.3% 0 0 0;
+            }
+            .firstImg{
+                img{
+                    padding: 25% 0 0% 15%;
+                }
+            }
+        }
+    }
     .innerAbout{
         margin: -14% 0 0 0;
         .Jumbotron{
             background-color: rgba(255, 127, 0, 1);
             font-family: "Renner";
-            padding: 10% 0;
+            .container{
+                padding:10%;
+            }
             h2{
                 font-weight: 700;
-                font-size: 36px;
+                font-size: 30px;
                 line-height: 54px;
             }
+        }
+
+    }
+    .col-md-3{
+        .miniJumbotron{
+            width: 100%;
+            height: 150px;
         }
     }
     .col-md-6{
         .thirdMiniJumbotron{
             background-color: rgba(255, 127, 0, 1);
+            width: 100%;
+            height: 150px;
+            .progbar{
+                margin: 6% 0;
+            }
+            a{
+                color: white;
+                margin-left: 80%;
+            }
         }
+
     }
 
 }
@@ -163,6 +197,11 @@ html,body{
                     width: 100%;
                 }
             }
+            .col-md-3{
+                img{
+                    width: 100%;
+                }
+            }
         }
     }
 }
@@ -175,16 +214,54 @@ html,body{
             .jumbotron{
                 background-color: rgba(255, 127, 0, 1);
                 font-family: "Renner";
-                padding: 10% 0;
+                width: 90%;
+                padding: 5% 0 10% 0;
+                img{
+                    margin-left: 65%;
+                }
                 .container{
+                    margin-left: 8%;
                     h3{
+                        font-family: 'Renner';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 72px;
+                        width: 90%;
                         
                         span{
                             color: white;
                         }
                     }
+                    h5{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 30px;
+                        color: white;
+                    }
                 }
 
+            }
+            .innerSecAims{
+                h2{
+                    font-family: 'Oswald';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 53px;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    color: rgba(255, 127, 0, 1);
+                }
+                p{
+                    font-family: 'Renner';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: white;
+                }
             }
         }
     }
@@ -234,4 +311,49 @@ html,body{
 footer{
     background-color: black;
     padding: 5% 0;
+    .container{
+        h6{
+            font-family: 'Renner';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        .quickLinks{
+            margin-left: 28%;
+            ul{
+                margin-left: -11.8%;
+                li{
+                    list-style: none;
+                    
+                    a{
+                        color: white;
+                    }
+                    a:hover{
+                        color: rgba(255, 127, 0, 1);
+                    }
+                }
+            }
+        }
+        .copyright{
+            margin: 4% 0 0 0;
+            p{
+                font-family: 'Renner';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.7;
+                a{
+                    color: #FFFFFF;
+                    margin-left: 10px;
+                }
+                a:hover{
+                    color: rgba(255, 127, 0, 1);
+                }
+            }
+        }
+    }
 }

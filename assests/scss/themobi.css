@@ -24,7 +24,8 @@ Table of Contents
 @import url("assets/scss/reset/reboot");
 @import url("assets/fontawsome/fontawesome");
 * {
-  outline: 0;
+  outline: 0px solid blue;
+  scroll-behavior: smooth;
 }
 
 html, body {
@@ -60,6 +61,9 @@ nav .navbar-brand img {
   width: 170px;
   height: 170px;
 }
+nav #navbarNav {
+  margin: 0 0 0 35%;
+}
 nav #navbarNav .navbar-nav {
   margin: 0 0 17px 0;
 }
@@ -67,6 +71,7 @@ nav #navbarNav .navbar-nav .nav-item a {
   font-family: "Raleway";
   color: black;
   font-size: 20px;
+  margin: 0 0 0 20px;
 }
 nav #navbarNav .navbar-nav .nav-item .active {
   color: rgb(255, 127, 0);
@@ -99,21 +104,42 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   padding: 50px 0 100px 0;
   background-color: black;
 }
+.aboutUs .container .row p {
+  margin: 11.3% 0 0 0;
+}
+.aboutUs .container .row .firstImg img {
+  padding: 25% 0 0% 15%;
+}
 .aboutUs .innerAbout {
   margin: -14% 0 0 0;
 }
 .aboutUs .innerAbout .Jumbotron {
   background-color: rgb(255, 127, 0);
   font-family: "Renner";
-  padding: 10% 0;
+}
+.aboutUs .innerAbout .Jumbotron .container {
+  padding: 10%;
 }
 .aboutUs .innerAbout .Jumbotron h2 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 54px;
+}
+.aboutUs .col-md-3 .miniJumbotron {
+  width: 100%;
+  height: 150px;
 }
 .aboutUs .col-md-6 .thirdMiniJumbotron {
   background-color: rgb(255, 127, 0);
+  width: 100%;
+  height: 150px;
+}
+.aboutUs .col-md-6 .thirdMiniJumbotron .progbar {
+  margin: 6% 0;
+}
+.aboutUs .col-md-6 .thirdMiniJumbotron a {
+  color: white;
+  margin-left: 80%;
 }
 
 .aims {
@@ -138,6 +164,9 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   line-height: 30px;
   width: 100%;
 }
+.aims .container .row .col-md-3 img {
+  width: 100%;
+}
 
 .secAims {
   background-color: black;
@@ -146,9 +175,49 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 .secAims .container .row .jumbotron {
   background-color: rgb(255, 127, 0);
   font-family: "Renner";
-  padding: 10% 0;
+  width: 90%;
+  padding: 5% 0 10% 0;
+}
+.secAims .container .row .jumbotron img {
+  margin-left: 65%;
+}
+.secAims .container .row .jumbotron .container {
+  margin-left: 8%;
+}
+.secAims .container .row .jumbotron .container h3 {
+  font-family: "Renner";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  width: 90%;
 }
 .secAims .container .row .jumbotron .container h3 span {
+  color: white;
+}
+.secAims .container .row .jumbotron .container h5 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+}
+.secAims .container .row .innerSecAims h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgb(255, 127, 0);
+}
+.secAims .container .row .innerSecAims p {
+  font-family: "Renner";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
   color: white;
 }
 
@@ -189,4 +258,46 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 footer {
   background-color: black;
   padding: 5% 0;
+}
+footer .container h6 {
+  font-family: "Renner";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer .container .quickLinks {
+  margin-left: 28%;
+}
+footer .container .quickLinks ul {
+  margin-left: -11.8%;
+}
+footer .container .quickLinks ul li {
+  list-style: none;
+}
+footer .container .quickLinks ul li a {
+  color: white;
+}
+footer .container .quickLinks ul li a:hover {
+  color: rgb(255, 127, 0);
+}
+footer .container .copyright {
+  margin: 4% 0 0 0;
+}
+footer .container .copyright p {
+  font-family: "Renner";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+footer .container .copyright p a {
+  color: #FFFFFF;
+  margin-left: 10px;
+}
+footer .container .copyright p a:hover {
+  color: rgb(255, 127, 0);
 }/*# sourceMappingURL=themobi.css.map */
