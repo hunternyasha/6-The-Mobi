@@ -105,7 +105,7 @@ html,body{
                 color: rgba(255, 127, 0, 1);
             }
         }
-        .col-md-6{
+        .secInnerHero{
             img{
                 margin: 5% 0 0 -20%;
                 max-width: 131%;
@@ -118,8 +118,8 @@ html,body{
 .aboutUs{
     padding: 50px 0 100px 0;
     background-color: black;
-    .container{
-        .row{
+    .innerAbout{
+        .secInnerAbout{
             p{
                 margin: 11.3% 0 0 0;
             }
@@ -130,12 +130,12 @@ html,body{
             }
         }
     }
-    .innerAbout{
+    .thirdInnerAbout{
         margin: -14% 0 0 0;
         .Jumbotron{
             background-color: rgba(255, 127, 0, 1);
             font-family: "Renner";
-            .container{
+            .innerJumbotron{
                 padding:10%;
             }
             h2{
@@ -146,13 +146,13 @@ html,body{
         }
 
     }
-    .col-md-3{
+    .miniJumbo{
         .miniJumbotron{
             width: 100%;
             height: 150px;
         }
     }
-    .col-md-6{
+    .thirdMiniJumbo{
         .thirdMiniJumbotron{
             background-color: rgba(255, 127, 0, 1);
             width: 100%;
@@ -172,14 +172,15 @@ html,body{
 
 .aims{
     padding: 10% 0;
-    .container{
-        .row{
-            .col-md-3{
+    .innerAims{
+        .secInnerAims{
+            .aimsImg{
                 img{
                     height: 95%;
+                    width: 100%;
                 }
             }
-            .col-md-12{
+            .thirdAims{
                 h2{
                     font-family: "OswaldBold";
                     font-size: 36px;
@@ -197,11 +198,6 @@ html,body{
                     width: 100%;
                 }
             }
-            .col-md-3{
-                img{
-                    width: 100%;
-                }
-            }
         }
     }
 }
@@ -209,8 +205,8 @@ html,body{
 .secAims{
     background-color: black;
     padding: 10% 0;
-    .container{
-        .row{
+    .secInnerAims{
+        .thirdInnerAims{
             .jumbotron{
                 background-color: rgba(255, 127, 0, 1);
                 font-family: "Renner";
@@ -219,7 +215,7 @@ html,body{
                 img{
                     margin-left: 65%;
                 }
-                .container{
+                .innerJumbotron{
                     margin-left: 8%;
                     h3{
                         font-family: 'Renner';
@@ -269,11 +265,11 @@ html,body{
 
 .donate{
     padding: 10% 0;
-    .container{
-        .innerDonate{
+    .innerDonate{
+        .secInnerDonate{
             padding: 0 15%;
         }
-        .col-md-6{
+        .thirdInnerDonate{
             h2{
                 color: rgba(255, 127, 0, 1);
                 font-family: 'Renner';
@@ -300,7 +296,7 @@ html,body{
             }
         }
         .brandLogo , .secBrandLogo{
-            .col-md-2{
+            .innerBrandLogos{
                 .logos{
                     margin-top: 10%;
                 }
@@ -311,7 +307,7 @@ html,body{
 footer{
     background-color: black;
     padding: 5% 0;
-    .container{
+    .innerFooter{
         h6{
             font-family: 'Renner';
             font-style: normal;
@@ -320,7 +316,7 @@ footer{
             line-height: 30px;
         }
         .quickLinks{
-            margin-left: 28%;
+            margin-left: 35%;
             ul{
                 margin-left: -11.8%;
                 li{
@@ -365,11 +361,11 @@ footer{
     }
 }
 
-@media (max-width: 575.98px) { 
+@media (min-width: 411px) and (max-width:768px){ 
     .hero{
         padding: 0 0 5% 0;
         .navbar{
-            .container{
+            .innerNav{
                 #navbarNav{
                     margin: 0;
                     ul{
@@ -382,26 +378,25 @@ footer{
             }
         }
         .innerHero{
-            .container{
-                .row{
-                    .col-md-6{
-                        h1{
-                            width: 100%;
-                            margin: 0;
-                        }
-                        img{
-                            width: 130%;
-                        }
 
-                    }
+            .secInnerHero{
+                h1{
+                    width: 100%;
+                    margin: 0;
                 }
+                img{
+                    width: 130%;
+                    margin: 0 0 0 -43px;
+                }
+
             }
+
         }
     }
     .aboutUs{
-        .container{
-            .row{
-                .innerAbout{
+        .innerAbout{
+            .secInnerAbout{
+                .thirdInnerAbout{
                     margin: 0;
                     .Jumbotron{
                         h2{
@@ -409,15 +404,15 @@ footer{
                         }
                     }
                 }
-                .col-md-6{
+                .firstImg{
                     img{
                         padding: 0;
                     }
                     .thirdMiniJumbotron{
                         height: auto;
-                        .container{
-                            .row{
-                                .col-md-6{
+                        .innerjumbo{
+                            .secInnerJumbo{
+                                .jumboText{
                                     h3{
                                         margin: 0 0 10% 0;
                                     }
@@ -433,9 +428,9 @@ footer{
         }
     }
     .secAims{
-        .container{
-            .row{
-                .col-md-6{
+        .secInnerAims{
+            .thirdInnerAims{
+                .Jumbo{
                    .jumbotron{
                     width: 100%;
                    } 
@@ -446,9 +441,29 @@ footer{
             }
         }
     }
+    .donate{
+        .innerDonate{
+            .secInnerDonate{
+                .thirdInnerDonate{
+                    h2{
+                        margin: 0 0 5% 0;
+                    }
+                    h3{
+                        width: 100%;
+                        font-size: 19px;
+                        margin: 0 0 5% 0;
+                    }
+                    p{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
 
     footer{
-        .container{
+        padding: 5% 0 100px 0;
+        .innerFooter{
             .innerContact{
                 flex-wrap: wrap;
                 justify-content: space-evenly;
@@ -467,7 +482,7 @@ footer{
                         li{
                             margin-left: 10px;
                             a{
-                                font-size: 1px;
+                                font-size: 15px;
                             }
                         }
                     }
@@ -480,7 +495,7 @@ footer{
     }
 }
 
-@media (max-width: 768px) { 
+@media (min-width: 768px) and (max-width: 1024px){ 
     .hero{
         padding: 0 0 96px 0;
         nav{
@@ -495,43 +510,134 @@ footer{
             }
         }
         .innerHero{
-            .container{
-                .row{
-                    .col-md-6{
-                        h1{
-                            font-size: 70px;
-                            line-height: 1.5;
-                            margin: 39px 0 0 0;
+ 
+            .secInnerHero{
+                h1{
+                    font-size: 70px;
+                    line-height: 1.5;
+                    margin: 39px 0 0 0;
+                }
+            }
+
+        }
+    }
+
+    .aboutUs{
+        .innerAbout{
+            .secInnerAbout{
+                .thirdInnerAbout{
+                    .Jumbotron{
+                        .innerJumbotron{
+                            h2{
+                                line-height: 1.5;
+                                font-size: 22px;
+                                font-weight: bold;
+                            }
+                            p{
+                                margin: -25px 0 0 0;
+                            }
                         }
+                    }
+                    p{
+                        margin: 0;
+                    }
+                }
+                .firstImg{
+                    img{
+                        padding: 0;
+                    }
+                }
+                .abtpy{
+                    margin: -58px 0 0 0;
+                }
+            }
+        }
+    }
+    .aims{
+        .innerAims{
+            .secInnerAims{
+                .aimsImg{
+                    img{
+                        width: 100%;
                     }
                 }
             }
         }
     }
 
-            .aboutUs{
-            .container{
-                .row{
-                    .innerAbout{
-                        .Jumbotron{
-                            .container{
-                                h2{
-                                    line-height: 1.5;
-                                    font-size: 22px;
-                                    font-weight: bold;
-                                }
-                                p{
-                                    margin: -25px 0 0 0;
-                                }
+    .secAims{
+        .secInnerAims{
+            .thirdInnerAims{
+                
+                    .jumbotron{
+                        width: 100%;
+                        .innerJumbotron{
+                            h3{
+                                
+                                margin: -31px 0 0 0;
+                                width: 100%;
                             }
                         }
                     }
-                    .firstImg{
-                        img{
-                            padding: 0;
+                
+                .innerSecAims{
+                    h2{
+                        margin: 5% 0 0 0;
+                    }
+                    .pt-3{
+                        p{
+                            width: 100%;
                         }
                     }
                 }
             }
         }
+    }
+    .donate{
+        .innerDonate{
+            .thirdInnerDonate{
+                h2{
+                    font-size: 57px;
+                    line-height: 1.5;
+                    padding: 60px 0 0;
+                }
+                h3{
+                    width: 140%;
+                    font-size: 25px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+    footer{
+        padding: 5% 0 51% 0;
+        .innerFooter{
+            .innerContact{
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .quickLinks{
+                    margin: 0;
+                    h6{
+                        margin: 0;
+                    }
+                    ul{
+                        li{
+                            a{
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .copyright{
+                display: flex;
+                flex-direction: row;
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
  }

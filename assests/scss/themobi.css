@@ -94,7 +94,7 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 .hero .innerHero h1 span {
   color: rgb(255, 127, 0);
 }
-.hero .innerHero .col-md-6 img {
+.hero .innerHero .secInnerHero img {
   margin: 5% 0 0 -20%;
   max-width: 131%;
   height: auto;
@@ -104,40 +104,40 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   padding: 50px 0 100px 0;
   background-color: black;
 }
-.aboutUs .container .row p {
+.aboutUs .innerAbout .secInnerAbout p {
   margin: 11.3% 0 0 0;
 }
-.aboutUs .container .row .firstImg img {
+.aboutUs .innerAbout .secInnerAbout .firstImg img {
   padding: 25% 0 0% 15%;
 }
-.aboutUs .innerAbout {
+.aboutUs .thirdInnerAbout {
   margin: -14% 0 0 0;
 }
-.aboutUs .innerAbout .Jumbotron {
+.aboutUs .thirdInnerAbout .Jumbotron {
   background-color: rgb(255, 127, 0);
   font-family: "Renner";
 }
-.aboutUs .innerAbout .Jumbotron .container {
+.aboutUs .thirdInnerAbout .Jumbotron .innerJumbotron {
   padding: 10%;
 }
-.aboutUs .innerAbout .Jumbotron h2 {
+.aboutUs .thirdInnerAbout .Jumbotron h2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 54px;
 }
-.aboutUs .col-md-3 .miniJumbotron {
+.aboutUs .miniJumbo .miniJumbotron {
   width: 100%;
   height: 150px;
 }
-.aboutUs .col-md-6 .thirdMiniJumbotron {
+.aboutUs .thirdMiniJumbo .thirdMiniJumbotron {
   background-color: rgb(255, 127, 0);
   width: 100%;
   height: 150px;
 }
-.aboutUs .col-md-6 .thirdMiniJumbotron .progbar {
+.aboutUs .thirdMiniJumbo .thirdMiniJumbotron .progbar {
   margin: 6% 0;
 }
-.aboutUs .col-md-6 .thirdMiniJumbotron a {
+.aboutUs .thirdMiniJumbo .thirdMiniJumbotron a {
   color: white;
   margin-left: 80%;
 }
@@ -145,10 +145,11 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 .aims {
   padding: 10% 0;
 }
-.aims .container .row .col-md-3 img {
+.aims .innerAims .secInnerAims .aimsImg img {
   height: 95%;
+  width: 100%;
 }
-.aims .container .row .col-md-12 h2 {
+.aims .innerAims .secInnerAims .thirdAims h2 {
   font-family: "OswaldBold";
   font-size: 36px;
   line-height: 53px;
@@ -156,15 +157,12 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   width: 100%;
   color: rgb(255, 127, 0);
 }
-.aims .container .row .col-md-12 p {
+.aims .innerAims .secInnerAims .thirdAims p {
   font-family: "Renner";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
-  width: 100%;
-}
-.aims .container .row .col-md-3 img {
   width: 100%;
 }
 
@@ -172,19 +170,19 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   background-color: black;
   padding: 10% 0;
 }
-.secAims .container .row .jumbotron {
+.secAims .secInnerAims .thirdInnerAims .jumbotron {
   background-color: rgb(255, 127, 0);
   font-family: "Renner";
   width: 90%;
   padding: 5% 0 10% 0;
 }
-.secAims .container .row .jumbotron img {
+.secAims .secInnerAims .thirdInnerAims .jumbotron img {
   margin-left: 65%;
 }
-.secAims .container .row .jumbotron .container {
+.secAims .secInnerAims .thirdInnerAims .jumbotron .innerJumbotron {
   margin-left: 8%;
 }
-.secAims .container .row .jumbotron .container h3 {
+.secAims .secInnerAims .thirdInnerAims .jumbotron .innerJumbotron h3 {
   font-family: "Renner";
   font-style: normal;
   font-weight: 700;
@@ -192,17 +190,17 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   line-height: 72px;
   width: 90%;
 }
-.secAims .container .row .jumbotron .container h3 span {
+.secAims .secInnerAims .thirdInnerAims .jumbotron .innerJumbotron h3 span {
   color: white;
 }
-.secAims .container .row .jumbotron .container h5 {
+.secAims .secInnerAims .thirdInnerAims .jumbotron .innerJumbotron h5 {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: white;
 }
-.secAims .container .row .innerSecAims h2 {
+.secAims .secInnerAims .thirdInnerAims .innerSecAims h2 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
@@ -212,7 +210,7 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   text-transform: uppercase;
   color: rgb(255, 127, 0);
 }
-.secAims .container .row .innerSecAims p {
+.secAims .secInnerAims .thirdInnerAims .innerSecAims p {
   font-family: "Renner";
   font-style: normal;
   font-weight: 400;
@@ -224,10 +222,10 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
 .donate {
   padding: 10% 0;
 }
-.donate .container .innerDonate {
+.donate .innerDonate .secInnerDonate {
   padding: 0 15%;
 }
-.donate .container .col-md-6 h2 {
+.donate .innerDonate .thirdInnerDonate h2 {
   color: rgb(255, 127, 0);
   font-family: "Renner";
   font-style: normal;
@@ -237,21 +235,21 @@ nav #navbarNav .navbar-nav .nav-item a:hover {
   letter-spacing: -0.02em;
   width: 100%;
 }
-.donate .container .col-md-6 h3 {
+.donate .innerDonate .thirdInnerDonate h3 {
   font-family: "Renner";
   font-style: normal;
   font-weight: bolder;
   font-size: 20px;
   line-height: 30px;
 }
-.donate .container .col-md-6 p {
+.donate .innerDonate .thirdInnerDonate p {
   font-family: "Renner";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
 }
-.donate .container .brandLogo .col-md-2 .logos, .donate .container .secBrandLogo .col-md-2 .logos {
+.donate .innerDonate .brandLogo .innerBrandLogos .logos, .donate .innerDonate .secBrandLogo .innerBrandLogos .logos {
   margin-top: 10%;
 }
 
@@ -259,24 +257,24 @@ footer {
   background-color: black;
   padding: 5% 0;
 }
-footer .container h6 {
+footer .innerFooter h6 {
   font-family: "Renner";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 30px;
 }
-footer .container .quickLinks {
-  margin-left: 28%;
+footer .innerFooter .quickLinks {
+  margin-left: 35%;
 }
-footer .container .quickLinks ul {
+footer .innerFooter .quickLinks ul {
   margin-left: -11.8%;
 }
-footer .container .quickLinks ul li {
+footer .innerFooter .quickLinks ul li {
   list-style: none;
   margin-left: 10px;
 }
-footer .container .quickLinks ul li a {
+footer .innerFooter .quickLinks ul li a {
   color: white;
   font-family: "Renner";
   font-style: normal;
@@ -285,13 +283,13 @@ footer .container .quickLinks ul li a {
   line-height: 30px;
   text-transform: uppercase;
 }
-footer .container .quickLinks ul li a:hover {
+footer .innerFooter .quickLinks ul li a:hover {
   color: rgb(255, 127, 0);
 }
-footer .container .copyright {
+footer .innerFooter .copyright {
   margin: 4% 0 0 0;
 }
-footer .container .copyright p {
+footer .innerFooter .copyright p {
   font-family: "Renner";
   font-style: normal;
   font-weight: 400;
@@ -301,86 +299,101 @@ footer .container .copyright p {
   mix-blend-mode: normal;
   opacity: 0.7;
 }
-footer .container .copyright p a {
+footer .innerFooter .copyright p a {
   color: #FFFFFF;
   margin-left: 10px;
 }
-footer .container .copyright p a:hover {
+footer .innerFooter .copyright p a:hover {
   color: rgb(255, 127, 0);
 }
 
-@media (max-width: 575.98px) {
+@media (min-width: 411px) and (max-width: 768px) {
   .hero {
     padding: 0 0 5% 0;
   }
-  .hero .navbar .container #navbarNav {
+  .hero .navbar .innerNav #navbarNav {
     margin: 0;
   }
-  .hero .navbar .container #navbarNav ul {
+  .hero .navbar .innerNav #navbarNav ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
   }
-  .hero .innerHero .container .row .col-md-6 h1 {
+  .hero .innerHero .secInnerHero h1 {
     width: 100%;
     margin: 0;
   }
-  .hero .innerHero .container .row .col-md-6 img {
+  .hero .innerHero .secInnerHero img {
     width: 130%;
+    margin: 0 0 0 -43px;
   }
-  .aboutUs .container .row .innerAbout {
+  .aboutUs .innerAbout .secInnerAbout .thirdInnerAbout {
     margin: 0;
   }
-  .aboutUs .container .row .innerAbout .Jumbotron h2 {
+  .aboutUs .innerAbout .secInnerAbout .thirdInnerAbout .Jumbotron h2 {
     padding: 0;
   }
-  .aboutUs .container .row .col-md-6 img {
+  .aboutUs .innerAbout .secInnerAbout .firstImg img {
     padding: 0;
   }
-  .aboutUs .container .row .col-md-6 .thirdMiniJumbotron {
+  .aboutUs .innerAbout .secInnerAbout .firstImg .thirdMiniJumbotron {
     height: auto;
   }
-  .aboutUs .container .row .col-md-6 .thirdMiniJumbotron .container .row .col-md-6 h3 {
+  .aboutUs .innerAbout .secInnerAbout .firstImg .thirdMiniJumbotron .innerjumbo .secInnerJumbo .jumboText h3 {
     margin: 0 0 10% 0;
   }
-  .aboutUs .container .row .col-md-6 .thirdMiniJumbotron .container .row .col-md-6 a {
+  .aboutUs .innerAbout .secInnerAbout .firstImg .thirdMiniJumbotron .innerjumbo .secInnerJumbo .jumboText a {
     margin: 5% 0 0 0;
   }
-  .secAims .container .row .col-md-6 .jumbotron {
+  .secAims .secInnerAims .thirdInnerAims .Jumbo .jumbotron {
     width: 100%;
   }
-  .secAims .container .row .innerSecAims {
+  .secAims .secInnerAims .thirdInnerAims .innerSecAims {
     margin: 5% 0 0 0;
   }
-  footer .container .innerContact {
+  .donate .innerDonate .secInnerDonate .thirdInnerDonate h2 {
+    margin: 0 0 5% 0;
+  }
+  .donate .innerDonate .secInnerDonate .thirdInnerDonate h3 {
+    width: 100%;
+    font-size: 19px;
+    margin: 0 0 5% 0;
+  }
+  .donate .innerDonate .secInnerDonate .thirdInnerDonate p {
+    font-size: 15px;
+  }
+  footer {
+    padding: 5% 0 100px 0;
+  }
+  footer .innerFooter .innerContact {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  footer .container .innerContact p {
+  footer .innerFooter .innerContact p {
     font-size: 13px;
   }
-  footer .container .innerContact .quickLinks {
+  footer .innerFooter .innerContact .quickLinks {
     margin: 0;
     text-align: center;
   }
-  footer .container .innerContact .quickLinks h6 {
+  footer .innerFooter .innerContact .quickLinks h6 {
     margin: 3% 0 0 0;
   }
-  footer .container .innerContact .quickLinks ul {
+  footer .innerFooter .innerContact .quickLinks ul {
     margin: 0 0 0 -44px;
   }
-  footer .container .innerContact .quickLinks ul li {
+  footer .innerFooter .innerContact .quickLinks ul li {
     margin-left: 10px;
   }
-  footer .container .innerContact .quickLinks ul li a {
-    font-size: 1px;
+  footer .innerFooter .innerContact .quickLinks ul li a {
+    font-size: 15px;
   }
-  footer .container .copyright {
+  footer .innerFooter .copyright {
     flex-direction: column;
   }
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .hero {
     padding: 0 0 96px 0;
   }
@@ -393,20 +406,75 @@ footer .container .copyright p a:hover {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .hero .innerHero .container .row .col-md-6 h1 {
+  .hero .innerHero .secInnerHero h1 {
     font-size: 70px;
     line-height: 1.5;
     margin: 39px 0 0 0;
   }
-  .aboutUs .container .row .innerAbout .Jumbotron .container h2 {
+  .aboutUs .innerAbout .secInnerAbout .thirdInnerAbout .Jumbotron .innerJumbotron h2 {
     line-height: 1.5;
     font-size: 22px;
     font-weight: bold;
   }
-  .aboutUs .container .row .innerAbout .Jumbotron .container p {
+  .aboutUs .innerAbout .secInnerAbout .thirdInnerAbout .Jumbotron .innerJumbotron p {
     margin: -25px 0 0 0;
   }
-  .aboutUs .container .row .firstImg img {
+  .aboutUs .innerAbout .secInnerAbout .thirdInnerAbout p {
+    margin: 0;
+  }
+  .aboutUs .innerAbout .secInnerAbout .firstImg img {
     padding: 0;
+  }
+  .aboutUs .innerAbout .secInnerAbout .abtpy {
+    margin: -58px 0 0 0;
+  }
+  .aims .innerAims .secInnerAims .aimsImg img {
+    width: 100%;
+  }
+  .secAims .secInnerAims .thirdInnerAims .jumbotron {
+    width: 100%;
+  }
+  .secAims .secInnerAims .thirdInnerAims .jumbotron .innerJumbotron h3 {
+    margin: -31px 0 0 0;
+    width: 100%;
+  }
+  .secAims .secInnerAims .thirdInnerAims .innerSecAims h2 {
+    margin: 5% 0 0 0;
+  }
+  .secAims .secInnerAims .thirdInnerAims .innerSecAims .pt-3 p {
+    width: 100%;
+  }
+  .donate .innerDonate .thirdInnerDonate h2 {
+    font-size: 57px;
+    line-height: 1.5;
+    padding: 60px 0 0;
+  }
+  .donate .innerDonate .thirdInnerDonate h3 {
+    width: 140%;
+    font-size: 25px;
+    line-height: 1;
+  }
+  footer {
+    padding: 5% 0 51% 0;
+  }
+  footer .innerFooter .innerContact {
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  footer .innerFooter .innerContact .quickLinks {
+    margin: 0;
+  }
+  footer .innerFooter .innerContact .quickLinks h6 {
+    margin: 0;
+  }
+  footer .innerFooter .innerContact .quickLinks ul li a {
+    font-size: 15px;
+  }
+  footer .innerFooter .copyright {
+    display: flex;
+    flex-direction: row;
+  }
+  footer .innerFooter .copyright p {
+    font-size: 14px;
   }
 }/*# sourceMappingURL=themobi.css.map */
